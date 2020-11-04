@@ -1,0 +1,113 @@
+
+Auther: Atul Punde
+____________________________________________________________________________________
+1)
+This Project contains-
+Backend files-
+	data Scrapping Module
+	domain finder Module
+	Mail Generation
+	Mail Validation
+	Mail Automation
+____________________________________________________________________________________
+2)
+Created simple buttons in HTML.
+for:  apply with linkedin
+      apply filter
+      scrap data
+      download CSV.
+____________________________________________________________________________________
+3)
+proper working program of 'createcontactlist'module.
+With: apply with linkedin
+      apply filter
+      scrap data
+      download CSV.
+____________________________________________________________________________________
+4)
+previous files +
+Buttons of:
+      apply with linkedin
+      apply filter
+      scrap data
+      download CSV.
+with linking.
+____________________________________________________________________________________
+5)
+previous files + Authentication
+Buttons of:
+      apply with linkedin
+      apply filter
+      scrap data
+      download CSV.
+with some changes in backend files.
+____________________________________________________________________________________
+6) 
+2-oct
+BIG CHANGES \/ DASHBOARD
+previous files + integration of dashboard.
+anker tag of:
+      apply with linkedin
+      apply filter
+      scrap data
+      download CSV.
+with necessary changes in createcontactlist module.
+(Authentication part is commented)
+____________________________________________________________________________________
+7)
+2-oct.
+complete createcontactlist module + domainfinder module
+some problems in xpath while searching for company. 
+domainfinder module contains-
+      loginwithinkedin
+      applyfilter
+      scrapdata
+      down;oad csv
+____________________________________________________________________________________
+8) 
+2-oct
+BIG CHANGES \/ DATABASE
+previous files + Mongodb Connection Successfully done.
+also showing preview of data on dashboard.
+____________________________________________________________________________________
+9)
+3-oct
+previous files + error in domain finder
++ new app added- 'single email Validation' with buttons 
+      choose file (csv) 
+      validate emails
+      download csv.
+'multiple email Validation' with buttons 
+      choose file (csv) 
+      validate emails
+      download csv.
+____________________________________________________________________________________
+10) 3-oct
+previous files + error in domain finder
+'multiple email Validation' with buttons 
+      choose file (csv) 
+      validate emails
+      download csv.
+Till now complete project is in Properly working condition EXCEPT domainfinder module.
+____________________________________________________________________________________
+11)
+I am giving functionality to choose file option. But there is small probem,
+If need to click on choose files then we need to click on upload file.
+When I click on upload file it is not redirecting to the url specified in emailValidation.urls.
+To overcome this problem I have taken a button 'email Validation Pass'.
+When I ckick on this button it is redirecting to 'upload_csv' url and working in proper way.  
+____________________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+

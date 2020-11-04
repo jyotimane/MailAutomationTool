@@ -1,0 +1,19 @@
+{% extends 'dashboard.html' %} {% block content %}
+<hr>
+<h2>Domain Finder Using CSV input</h2>
+
+<input type="file" value="Insert CSV File" class="btn btn-info" />
+
+<br> <br>
+
+<button type="button" class="btn btn-info" onclick="location.href='{% url 'finddomains' %}'"> 
+    Find Domains
+</button> {% if domain %} {{domain}} {% endif %}
+<br> <br>
+
+<button type="button" class="btn btn-info"> 
+    Download CSV
+</button>
+<br>
+
+<hr> {% endblock %}

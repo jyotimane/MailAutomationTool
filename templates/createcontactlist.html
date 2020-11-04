@@ -1,0 +1,26 @@
+{% extends 'dashboard.html' %} {% block content %}
+<hr>
+<h2>Create Contact List Using LinkedIn</h2>
+
+
+<button type="button" class="btn btn-info" onclick="location.href='{% url 'loginlinkedin' %}'">
+    Login With LinkedIn
+</button> {% if username %} Username : {{username}} {% endif %}
+<br><br>
+
+<button type="button" class="btn btn-info" onclick="location.href='{% url 'applyfilter' %}'"> 
+    Apply Filter
+</button> {% if filterapplied %} {{filterapplied}} {% endif %}
+<br> <br>
+
+<button type="button" class="btn btn-info" onclick="location.href='{% url 'linkedindatascrap' %}'"> 
+    Scrap Data
+</button> {% if datadict %} {{datadict}} {% endif %}
+<br> <br>
+
+<button type="button" class="btn btn-info" onclick="location.href='{% url 'datascrapeddwnld' %}'"> 
+    Download CSV
+</button> {% if dwnldscrapdata %} {{dwnldscrapdata}}
+<br> {{ccl_data}} {% endif %}
+<br>
+<hr> {% endblock %}
